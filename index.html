@@ -4,31 +4,31 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<script id="script">
-		var ua = navigator.userAgent.toLowerCase();
-		var isAndroid = ua.indexOf("android") > -1;
-		var isApple =  ua.indexOf("iphone") > -1;
 
-		if (isAndroid || isApple) {
-			var	fourByThreeW = 360;
-			var	fourByThreeH = 270;
-
-			var	sixteenByNineW = 360;
-			var	sixteenByNineH = 202.5;
-		}
-		else{
-			var	fourByThreeW = 400;
-			var	fourByThreeH = 300;
-
-			var	sixteenByNineW = 515;
-			var	sixteenByNineH = 360;
-
-		}
-</script>
 
 
 <html>
-	
+		<script>
+				var ua = navigator.userAgent.toLowerCase();
+				var isAndroid = ua.indexOf("android") > -1;
+				var isApple =  ua.indexOf("iphone") > -1;
+		
+				if (isAndroid || isApple) {
+					var	fourByThreeW = 360;
+					var	fourByThreeH = 270;
+		
+					var	sixteenByNineW = 360;
+					var	sixteenByNineH = 202.5;
+				}
+				else{
+					var	fourByThreeW = 400;
+					var	fourByThreeH = 300;
+		
+					var	sixteenByNineW = 515;
+					var	sixteenByNineH = 360;
+		
+				}
+		</script>
 
 	<head>
 		<title>VR Physics!</title>
@@ -128,7 +128,7 @@
 										</p>
 										<br>
 										<h2 class="major">Video</h2>
-										<iframe width=document.getElementById("script").innerHTML.sixteenByNineW height=document.getElementById("script").innerHTML.sixteenByNineH src="https://www.youtube.com/embed/7RCeJERXedU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+										<iframe src="https://www.youtube.com/embed/7RCeJERXedU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 									</div>
 								</div>
 							</section>
@@ -207,7 +207,7 @@
 										<h2 class="major">Our Poster</h2>
 											<a href="Poster.html" target="_blank" >
 
-												<img src="images/Poster.png" alt="VR Physics Poster 2017-2018" width="fourByThreeW"   height="fourByThreeH"  >
+												<img src="images/Poster.png" alt="VR Physics Poster 2017-2018" width="360"  height="270"  >
 											</a>
 									</div>
 								</div>
