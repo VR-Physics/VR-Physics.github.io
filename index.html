@@ -6,8 +6,11 @@
 -->
 <html>
 	<script>
-	
-		if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+		var ua = navigator.userAgent.toLowerCase();
+		var isAndroid = ua.indexOf("android") > -1;
+		var isApple =  ua.indexOf("iPhone") > -1;
+
+		if (isAndroid || isApple) {
 			var	fourByThreeW = 360;
 			var	fourByThreeH = 270;
 
