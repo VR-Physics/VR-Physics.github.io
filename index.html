@@ -10,7 +10,21 @@
     		var screenHeight = screen.height;
 			//-->
 		 </script>
-
+  <style>
+		* {
+		 margin: 0;
+		 padding: 0;
+		}
+		.imgbox {
+		 display: grid;
+		 height: 100%;
+		}
+		.center-fit {
+		 max-width: 100%;
+		 max-height: 100vh;
+		 margin: auto;
+		}
+		</style>
 
 	<head>
 		<title>VR Physics!</title>
@@ -110,7 +124,7 @@
 										</p>
 										<br>
 										<h2 class="major">Video</h2>
-										<iframe width=screenWidth/4 height=screenHeight/3 src="https://www.youtube.com/embed/7RCeJERXedU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+										<iframe width=screenWidth/4 height=maxWidth src="https://www.youtube.com/embed/7RCeJERXedU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 									</div>
 								</div>
 							</section>
@@ -188,7 +202,7 @@
 									<div class="content">
 										<h2 class="major">Our Poster</h2>
 											<a href="Poster.html" target="_blank" >
-												<img src="images/Poster.png" alt="VR Physics Poster 2017-2018" width=screenWidth/4 height=screenWidth/3>
+												<img src="images/Poster.png" alt="VR Physics Poster 2017-2018" width=max-width height=max-height>
 											</a>
 									</div>
 								</div>
